@@ -34,7 +34,7 @@ on:
 
 #点☆Star触发开始编译
   watch:
-#    types: started
+    types: started
 
 
 env:
@@ -43,7 +43,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 1907.config
   DIY_OP_SH: 1907.sh
-  SSH_ACTIONS: true
+  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_CONFIG: true
   UPLOAD_FIRMWARE: true
